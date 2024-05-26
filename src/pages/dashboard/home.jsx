@@ -1,28 +1,5 @@
 import React from "react";
 
-const pages = [
-  {
-    heading: "News",
-    link: "/dashboard/news",
-  },
-  {
-    heading: "Intro",
-    link: "/dashboard/intro",
-  },
-  {
-    heading: "Administration",
-    link: "/dashboard/administration",
-  },
-  {
-    heading: "Best Students",
-    link: "/dashboard/students",
-  },
-  {
-    heading: "Contact",
-    link: "/dashboard/Contact",
-  },
-];
-
 import { NavLink } from "react-router-dom";
 
 export function Home() {

@@ -30,11 +30,12 @@ export function SignIn() {
               color="blue-gray"
               className="-mb-3 font-medium"
             >
-              ваш логин
+              ваш электронная почта
             </Typography>
             <Input
               size="lg"
-              placeholder="ваш логин"
+              type="email"
+              placeholder="ваш электронная почта"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
                 className: "before:content-none after:content-none",
