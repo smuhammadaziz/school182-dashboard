@@ -19,6 +19,8 @@ import {
   ClockIcon,
   CreditCardIcon,
   Bars3Icon,
+  ArrowUturnLeftIcon,
+  ArrowLeftOnRectangleIcon,
 } from "@heroicons/react/24/solid";
 import {
   useMaterialTailwindController,
@@ -84,10 +86,14 @@ export function DashboardNavbar() {
             <Button
               variant="text"
               color="blue-gray"
-              className="hidden items-center gap-1 px-4 xl:flex normal-case"
+              className="hidden items-center gap-2 px-5 xl:flex normal-case"
             >
-              <UserCircleIcon className="h-5 w-5 text-blue-gray-500" />
-              Sign In
+              <ArrowLeftOnRectangleIcon
+                strokeWidth={3}
+                className="h-6 w-6 text-blue-gray-500"
+              />
+
+              <p className="text-md">выйти</p>
             </Button>
             <IconButton
               variant="text"
