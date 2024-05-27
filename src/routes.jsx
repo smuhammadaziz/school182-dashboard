@@ -11,6 +11,7 @@ import {
 import { Home } from "@/pages/dashboard";
 import { SignIn, SignUp } from "@/pages/auth";
 import NewsPage from "./pages/dashboard/news";
+import AddNews from "./pages/add/news";
 
 const icon = {
   className: "w-5 h-5 text-inherit",
