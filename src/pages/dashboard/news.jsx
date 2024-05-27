@@ -66,7 +66,7 @@ function NewsPage() {
               <h2 className="text-2xl mb-2">{e.title}</h2>
               <h4>{e.date}</h4>
               <NavLink
-                to={`/dashboard/news/${e.id}`}
+                to={`/dashboard/news/1`}
                 className="bg-blue-700 hover:bg-blue-500 text-white py-2 px-6 mt-5 inline-block rounded"
               >
                 более
