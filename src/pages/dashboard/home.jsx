@@ -8,7 +8,7 @@ export function Home() {
       <h2 className="text-3xl">Добро пожаловать в Панель управления!</h2>
 
       <div className="flex grid mt-10 grid-rows-3 grid-flow-col gap-4">
-        <div className="bg-white  p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
+        <div className="bg-white rounded-xl  p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
           <p className="text-2xl">Новости</p>
           <NavLink
             to="/dashboard/news"
@@ -17,7 +17,7 @@ export function Home() {
             Перейти на страницу
           </NavLink>
         </div>
-        <div className="bg-white p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
+        <div className="bg-white rounded-xl p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
           <p className="text-2xl">Администрация школы</p>
           <NavLink
             to="/dashboard/admins"
@@ -26,7 +26,7 @@ export function Home() {
             Перейти на страницу
           </NavLink>
         </div>
-        <div className="bg-white p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
+        <div className="bg-white rounded-xl p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
           <p className="text-2xl">Активные студенты</p>
           <NavLink
             to="/dashboard/students"
@@ -35,7 +35,7 @@ export function Home() {
             Перейти на страницу
           </NavLink>
         </div>
-        <div className="bg-white p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
+        <div className="bg-white rounded-xl p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
           <p className="text-2xl">Фотографии на главной странице</p>
           <NavLink
             to="/dashboard/intro"
@@ -44,7 +44,7 @@ export function Home() {
             Перейти на страницу
           </NavLink>
         </div>
-        <div className="bg-white p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
+        <div className="bg-white rounded-xl p-10 px-20 m-5 shadow-xl hover:shadow-gray-400 hover:cursor-pointer">
           <p className="text-2xl">Весь список контактов</p>
           <NavLink
             to="/dashboard/contacts"
